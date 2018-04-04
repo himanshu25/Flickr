@@ -170,9 +170,19 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x1v-Ng-l9D">
+                                                    <rect key="frame" x="20" y="49" width="335" height="1"/>
+                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="Ecc-03-7ud"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="LMl-sB-nH1" secondAttribute="trailing" id="29X-ia-hko"/>
+                                                <constraint firstItem="x1v-Ng-l9D" firstAttribute="leading" secondItem="22F-Wp-m8i" secondAttribute="leading" constant="20" id="NqW-jY-ekW"/>
+                                                <constraint firstAttribute="trailing" secondItem="x1v-Ng-l9D" secondAttribute="trailing" constant="20" id="VNp-ve-d4C"/>
+                                                <constraint firstAttribute="bottom" secondItem="x1v-Ng-l9D" secondAttribute="bottom" id="pGJ-98-GOY"/>
                                                 <constraint firstItem="LMl-sB-nH1" firstAttribute="leading" secondItem="22F-Wp-m8i" secondAttribute="leading" id="rS8-Tv-zAt"/>
                                                 <constraint firstItem="LMl-sB-nH1" firstAttribute="top" secondItem="22F-Wp-m8i" secondAttribute="top" id="sTU-Mk-4be"/>
                                                 <constraint firstAttribute="bottom" secondItem="LMl-sB-nH1" secondAttribute="bottom" id="up7-NB-H2o"/>
