@@ -170,8 +170,6 @@ class FlickrSearchViewController: UIViewController,UICollectionViewDataSource, U
     public func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchBar.text!.count == 0 {
             indicator.isHidden = true
-            imageCollectionView.isHidden = true
-            emptyImageStackView.isHidden = false
             self.title = "Search"
         }
     }
